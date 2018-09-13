@@ -22,7 +22,7 @@ pipeline {
 
       stage('Deployment Stage') {
         steps {
-          sh '/var/lib/jenkins/scripts/01_deploy_naming_server.sh'
+          sh '/var/lib/jenkins/scripts/02_deploy_naming_server.sh'
         }
       }
     }
